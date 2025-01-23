@@ -1,0 +1,120 @@
+.footer {
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    width: 85%;
+  }
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company {
+  height: 2.5rem;
+  margin-top: -1rem;
+}
+
+.copyright-description {
+  color: #767676;
+  font-size: 12px;
+}
+
+.copyright-description p {
+  margin-bottom: 0.8rem;
+}
+
+.about-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.about-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-description a {
+  color: grey;
+  margin-bottom: 0.8rem;
+}
+
+.general-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.general-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.general-description a {
+  color: grey;
+  margin-bottom: 0.8rem;
+}
+
+.resources-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.resources-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.resources-description a {
+  color: grey;
+  margin-bottom: 0.8rem;
+}
+
+.socials {
+  width: 8rem;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 568px) {
+  .socials {
+    width: 2rem;
+    display: flex;
+  }
+  .socials-container {
+    flex-direction: column;
+  }
+}
+
+.social-button {
+  background-color: #04ddb2;
+  border: none;
+  border-radius: 100px;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.social-button:hover {
+  transition: 0.2s;
+  background-color: #03cca4;
+}
+
+.logo {
+  height: 0.8rem;
+  width: 0.8rem;
+}

@@ -33,6 +33,74 @@
   background-color: rgb(238, 238, 238);
 }
 
+@media only screen and (max-width: 568px) {
+  .nav-bar {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 568px) {
+  .nav-bar {
+    display: flex;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+
+.hamburger-button {
+  background-color: black;
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: relative;
+  visibility: hidden;
+}
+
+.hamburger:hover {
+  .dropdown-menu{
+    visibility: visible;
+  }
+}
+
+.dropdown-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  z-index: 1;
+  bottom: -9.5rem;
+  right: -2rem;
+  left: -4.5rem;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(0, 0, 0, 0.551);
+}
+
+.hamburger-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
 .right-header {
   margin-right: 2.5rem;
 }

@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="general.css">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="content.css">
+  <link rel="stylesheet" href="footer.css">
   <title>Responsive Website2</title>
 </head>
 <body>
@@ -13,13 +14,29 @@
     <div class="left-header">
       <img class="icon" src="icons/lobe.png">
     </div>
-    <nav class="middle-header">
-      <a class="overview" href="">Overview</a>
-      <a class="examples" href="">Examples</a>
-      <a class="tour" href="">Tour</a>
-      <a class="blog" href="">Blog</a>
-      <a class="help" href="">Help</a>
-    </nav>
+    <div class="middle-header">
+      <nav class="nav-bar">
+        <a class="overview" href="">Overview</a>
+        <a class="examples" href="">Examples</a>
+        <a class="tour" href="">Tour</a>
+        <a class="blog" href="">Blog</a>
+        <a class="help" href="">Help</a>
+      </nav>
+      <div class="hamburger">
+        <button class="hamburger-button">
+          <img class="hamburger-icon" src="icons/hamburger.png">
+        </button>
+        <div class="dropdown-menu">
+          <div class="dropdown-content">
+            <a class="overview" href="">Overview</a>
+            <a class="examples" href="">Examples</a>
+            <a class="tour" href="">Tour</a>
+            <a class="blog" href="">Blog</a>
+            <a class="help" href="">Help</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="right-header">
       <button class="download-button">
         Download
@@ -56,7 +73,100 @@
     </div>
   </div>
   <div class="footer">
-    
+    <div class="footer-content">
+      <div class="copyright">
+        <div class="copyright-title">
+          <img class="company" src="icons/lobe.png">
+        </div>
+        <div class="copyright-description">
+          <p>
+            A product by Microsoft.
+          </p>
+          <p>
+            All rights reserved.
+          </p>
+          <p>
+            @ Microsoft 2021
+          </p>
+        </div>
+      </div>
+      <div class="about">
+        <div class="about-title">
+          <p>
+            About
+          </p>
+        </div>
+        <nav class="about-description">
+          <a href="">
+            Download
+          </a>
+          <a href="">
+            Overview
+          </a>
+          <a href="">
+            Examples
+          </a>
+          <a href="">
+            Blog
+          </a>
+        </nav>
+      </div>
+      <div class="general">
+        <div class="general-title">
+          <p>
+            General
+          </p>
+        </div>
+        <nav class="general-description">
+          <a href="">
+            Notice
+          </a>
+          <a href="">
+            License
+          </a>
+          <a href="">
+            Press Inquiry
+          </a>
+          <a href="">
+            Press Images
+          </a>
+        </nav>
+      </div>
+      <div class="resources">
+        <div class="resources-title">
+          <p>
+            Resources
+          </p>
+        </div>
+        <nav class="resources-description">
+          <a href="">
+            Help
+          </a>
+          <a href="">
+            Tour
+          </a>
+          <a href="">
+            Contact
+          </a>
+          <a href="">
+            Privacy
+          </a>
+        </nav>
+      </div>
+      <div class="socials">
+        <div class="socials-container">
+          <button class="social-button">
+            <img class="logo" src="icons/chat.png">
+          </button>
+          <button class="social-button">
+            <img class="logo" src="icons/twitter.png">
+          </button>
+          <button class="social-button">
+            <img class="logo" src="icons/youtube.png">
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="footer-space"></div>
 </body>
